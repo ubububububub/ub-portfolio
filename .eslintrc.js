@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2022: true,
   },
   extends: [
     "eslint:recommended",
@@ -18,10 +18,7 @@ module.exports = {
         projects: "./tsconfig.json",
       },
       plugins: ["@typescript-eslint/eslint-plugin"],
-      extends: [
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended",
-      ],
+      extends: ["plugin:@typescript-eslint/recommended"],
     },
   ],
   parser: "@typescript-eslint/parser",
