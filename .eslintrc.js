@@ -8,6 +8,8 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "airbnb",
+    "plugin:import/typescript",
+    "plugin:import/recommended",
     "plugin:prettier/recommended",
   ],
   overrides: [
@@ -64,7 +66,23 @@ module.exports = {
     "react/jsx-child-element-spacing": "off",
     "react/jsx-one-expression-per-line": "off",
     "jsx-dev-runtime": "off",
-    "import/order": "off",
+    "import/order": [
+      "error",
+      {
+        groups: [
+          "builtin",
+          "external",
+          ["parent", "sibling"],
+          "index",
+          "object",
+        ],
+        alphabetize: {
+          order: "asc",
+          caseInsensitive: true,
+        },
+        "newlines-between": "always",
+      },
+    ],
     "no-underscore-dangle": "off",
     "spaced-comment": "off",
     "one-var": "off",
