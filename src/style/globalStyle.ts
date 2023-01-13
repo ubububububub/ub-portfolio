@@ -1,15 +1,25 @@
-import styled, { createGlobalStyle, css } from "styled-components";
+import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
 
-export const MyComponent = styled.div`
-  color: ${props => props.theme.colors.main};
-`;
+const GlobalStyle = createGlobalStyle`
+  ${reset};
 
-export const GlobalStyle = createGlobalStyle`
+  html {
+    font-size: 62.5%;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
   body {
-    background-color: ${props => props.theme.colors.secondary};
+    box-sizing: border-box;
+  };
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
   }
 `;
 
-export const cssHelper = css`
-  border: 1px solid ${props => props.theme.borderRadius};
-`;
+export default GlobalStyle;
