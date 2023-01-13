@@ -107,5 +107,7 @@ module.exports = {
         usePrettierrc: true,
       },
     ],
+    "import/prefer-default-export": "off",
+    "react/no-array-index-key": "off",
   },
 };

@@ -1,5 +1,5 @@
 {
-  "name": "react-boilerplate",
+  "name": "ub-portfolio",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -13,6 +13,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.2",
     "styled-components": "^5.3.6",
     "styled-reset": "^4.4.2"
   },
@@ -53,9 +54,5 @@
     "src/**/*.{ts,tsx}": [
       "prettier --write --config ./.prettierrc"
     ]
-  },
-  "main": "index.js",
-  "repository": "https://github.com/ubububububub/react-boilerplate",
-  "author": "ub <kimub1204@naver.com>",
-  "license": "MIT"
+  }
 }
