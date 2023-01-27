@@ -11,6 +11,7 @@ function ProjectList({
   skill,
   link,
   personnel,
+  period,
 }: T.ProjectListProps) {
   return (
     <S.Container>
@@ -28,6 +29,8 @@ function ProjectList({
           <S.ProjectExp>{skill}</S.ProjectExp>
           <S.ProjectExpTitle>#인원</S.ProjectExpTitle>
           <S.ProjectExp>{personnel}</S.ProjectExp>
+          <S.ProjectExpTitle>#기간</S.ProjectExpTitle>
+          <S.ProjectExp>{period}</S.ProjectExp>
         </S.ProjectExpList>
         <S.ReadmeContainer>
           <S.ReadmeLink href={link} target='_blank'>

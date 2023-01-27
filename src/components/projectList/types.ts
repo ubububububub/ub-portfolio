@@ -6,4 +6,5 @@ export interface ProjectListProps {
   skill: string;
   link: string;
   personnel: string;
+  period: string;
 }

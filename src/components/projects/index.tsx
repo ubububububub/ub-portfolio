@@ -14,7 +14,8 @@ function Projects() {
           func='요일별 애니, 역대 인기 애니, 태그 검색, 별점, 리뷰 등의 기능을 제공합니다.'
           skill='React, TypeScript, Redux Toolkit, React Query, Styled-Components, Vite'
           link='https://github.com/ubububububub/laftel-clone'
-          personnel='프로젝트 참가인원 총 2명 (프론트엔드 1명 / 백엔드 1명), 프론트엔드 담당'>
+          personnel='프로젝트 참가인원 총 2명 (프론트엔드 1명 / 백엔드 1명), 프론트엔드 담당'
+          period='2022. 11. 21 ~ 2022. 12. 25'>
           <iframe
             width='560'
             height='315'
@@ -31,7 +32,8 @@ function Projects() {
           func='상품별 가격, 세탁 주문, 파트너, 어드민 등의 기능을 제공합니다.'
           skill='React, JavaScript, Redux Toolkit, React Query, Styled-Components, Vite'
           link='https://github.com/elice-semul/FE-admin'
-          personnel='프로젝트 참가 인원 총 6명(프론트엔드 4명 / 백엔드 2명), 프론트엔드 담당'>
+          personnel='프로젝트 참가 인원 총 6명(프론트엔드 4명 / 백엔드 2명), 프론트엔드 담당'
+          period='2022. 12. 12 ~ 2022. 12. 30'>
           <iframe
             width='560'
             height='315'
