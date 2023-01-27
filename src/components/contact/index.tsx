@@ -1,5 +1,6 @@
 import * as S from "./styled";
 
+import Svg from "@/components/svg";
 import * as U from "@/style/util";
 
 function Contact() {
@@ -12,6 +13,9 @@ function Contact() {
         </S.ContactItem>
         <S.ContactItem>
           Email. <U.StrongText>kimub1204@naver.com</U.StrongText>
+        </S.ContactItem>
+        <S.ContactItem>
+          <Svg name='github' />
         </S.ContactItem>
       </S.ContactList>
     </S.Container>
